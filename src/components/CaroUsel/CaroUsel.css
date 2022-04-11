@@ -1,0 +1,117 @@
+.carousel {
+    background-color: #FFF;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.card-carousel {
+    display: inline-block;
+    color: #FFF;
+    padding: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 340px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.first-item-carousel {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.div-orange {
+    background: rgba(249, 173, 29, 0.6);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.title-carousel {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+.second-item-carousel {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px;
+    max-width: max-content;
+}
+
+.third-item-carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.card-green-carousel {
+    margin: 5px;
+    width: 20px;
+    background-color: rgba(60, 187, 180, 0.6);
+    padding: 10px;
+}
+
+.card-yellow-carousel {
+    margin: 5px;
+    width: 20px;
+    background-color: rgba(249, 173, 29, 0.6);
+    padding: 10px;
+}
+
+.card-vote-carousel {
+    width: 107px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-color: #FFF;
+}
+
+.footer-carousel {
+    display: flex;
+    height: 36px;
+    width: 100%;
+    color: #FFF;
+}
+
+.green-bar-carousel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    background-color: rgba(60, 187, 180, 0.6);
+}
+
+.yellow-bar-carousel {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 70%;
+    text-align: end;
+    background-color: rgba(249, 173, 29, 0.6);
+}

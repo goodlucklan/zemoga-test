@@ -1,0 +1,12 @@
+.container-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.selector {
+    margin-top: 15px;
+    width: 173px;
+    height: 33px;
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+.directory-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item-list {
+    background-color: #eee;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.0001) 0%, #888888 19.79%, #666666 50%, rgba(51, 51, 51, 0.6) 71.88%);
+}
+.main-card-list{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.card-content-list{
+    position: relative;
+}
+.first-card-list{
+    position: absolute;
+    top: 0;
+    background: rgba(249, 173, 29, 0.6);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-card-list{
+    max-width: 540px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #FFF;
+}
+.second-card-list h3{
+    color: #FFF;
+}
+.third-card-list{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: #FFF;
+    margin-top: 10px;
+}
+.cards-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+.btn-green{
+    margin: 5px;
+    width: 20px;
+    background-color: rgba(60, 187, 180, 0.6);
+    padding: 10px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+.btn-yellow{
+    margin: 5px;
+    width: 20px;
+    background-color: rgba(249, 173, 29, 0.6);
+    padding: 10px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+.btn-vote{
+    height: 52px;
+    width: 107px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-color: #FFF;
+}
+.buttons-size{
+    width: 100%;
+}
+.card-footer{
+    display: flex;
+    height: 54px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFF;
+}
+.footer-left-list{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    background-color: rgba(60, 187, 180, 0.6);
+}
+.footer-right-list{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+    width: 70%;
+    text-align: end;
+    background-color: rgba(249, 173, 29, 0.6);
+}
